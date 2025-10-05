@@ -1,0 +1,27 @@
+/* ✅ Import Tailwind v4 */
+@import "tailwindcss";
+ 
+/* ✅ Custom CSS variables */
+:root {
+  --background: #000000;
+  --foreground: #000000;
+}
+ 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #000000;
+    --foreground: #000000;
+  }
+}
+ 
+/* ✅ Use CSS variables with Tailwind utilities */
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}
+ 
+/* ✅ Example of custom utility using @apply */
+/* .btn-primary {
+  @apply px-4 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-700;
+} */
