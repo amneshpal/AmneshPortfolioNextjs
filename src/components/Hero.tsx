@@ -32,6 +32,10 @@ export default function Hero() {
     <section className="min-h-screen flex flex-col md:flex-row items-center bg-black text-white px-6 md:px-16">
       {/* Left Side */}
       <div className="flex-1 flex flex-col justify-center text-center md:text-left">
+       <br/>
+       <br/>
+       <br/>
+       <br/>
         <span className="text-lg">Hello!</span>
         <h1 className="text-4xl md:text-6xl font-bold mt-3">
           I'm <span className="text-blue-500">Amnesh Pal</span>
