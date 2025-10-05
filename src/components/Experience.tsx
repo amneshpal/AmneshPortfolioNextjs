@@ -87,7 +87,7 @@ export default function Experience() {
     {
       period: 'Sept 2025 – Present',
       role: 'Backend Developer',
-      company: 'Uproi Pvt Ltd',
+      company: 'proi Pvt Ltd',
       details: [
         'Designed and implemented RESTful APIs using Node.js and Express.',
         'Optimized MongoDB queries and database performance.',
